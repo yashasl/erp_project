@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && node server.js",
+    "start": "node server.js",
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && nodemon server.js"
   },
   "dependencies": {
