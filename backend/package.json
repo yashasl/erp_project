@@ -1,0 +1,20 @@
+{
+  "name": "mini-erp-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && node server.js",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
